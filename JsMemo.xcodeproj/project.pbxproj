@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6F7110255C1CF4007536E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F710F255C1CF4007536E3 /* Model.swift */; };
 		8CCFDA2825544214008D3414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCFDA2725544214008D3414 /* AppDelegate.swift */; };
 		8CCFDA2A25544214008D3414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCFDA2925544214008D3414 /* SceneDelegate.swift */; };
 		8CCFDA2F25544214008D3414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCFDA2D25544214008D3414 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C6F710F255C1CF4007536E3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8CCFDA2425544214008D3414 /* JsMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCFDA2725544214008D3414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CCFDA2925544214008D3414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C6F710E255C1CCD007536E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C6F710F255C1CF4007536E3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8CCFDA1B25544214008D3414 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		8CCFDA2625544214008D3414 /* JsMemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C6F710E255C1CCD007536E3 /* Model */,
 				8CCFDA2725544214008D3414 /* AppDelegate.swift */,
 				8CCFDA2925544214008D3414 /* SceneDelegate.swift */,
 				8CCFDA2D25544214008D3414 /* Main.storyboard */,
@@ -141,6 +152,7 @@
 				8CCFDA2825544214008D3414 /* AppDelegate.swift in Sources */,
 				8CCFDA3225544214008D3414 /* JsMemo.xcdatamodeld in Sources */,
 				8CCFDA2A25544214008D3414 /* SceneDelegate.swift in Sources */,
+				8C6F7110255C1CF4007536E3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
