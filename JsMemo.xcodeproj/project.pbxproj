@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C582AC5255D9F5E00D5BAAF /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C582AC4255D9F5E00D5BAAF /* MemoListTableViewController.swift */; };
 		8C6F7110255C1CF4007536E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F710F255C1CF4007536E3 /* Model.swift */; };
 		8CCFDA2825544214008D3414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCFDA2725544214008D3414 /* AppDelegate.swift */; };
 		8CCFDA2A25544214008D3414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCFDA2925544214008D3414 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C582AC4255D9F5E00D5BAAF /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		8C6F710F255C1CF4007536E3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8CCFDA2425544214008D3414 /* JsMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCFDA2725544214008D3414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				8CCFDA3525544215008D3414 /* LaunchScreen.storyboard */,
 				8CCFDA3825544215008D3414 /* Info.plist */,
 				8CCFDA3025544214008D3414 /* JsMemo.xcdatamodeld */,
+				8C582AC4255D9F5E00D5BAAF /* MemoListTableViewController.swift */,
 			);
 			path = JsMemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				8CCFDA2825544214008D3414 /* AppDelegate.swift in Sources */,
 				8CCFDA3225544214008D3414 /* JsMemo.xcdatamodeld in Sources */,
+				8C582AC5255D9F5E00D5BAAF /* MemoListTableViewController.swift in Sources */,
 				8CCFDA2A25544214008D3414 /* SceneDelegate.swift in Sources */,
 				8C6F7110255C1CF4007536E3 /* Model.swift in Sources */,
 			);
