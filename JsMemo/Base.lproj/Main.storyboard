@@ -86,7 +86,11 @@
                         <viewLayoutGuide key="safeArea" id="VIF-46-uEY"/>
                     </view>
                     <navigationItem key="navigationItem" title="새 메모" id="cD5-uS-zVg">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="h96-R4-77z"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="h96-R4-77z">
+                            <connections>
+                                <action selector="close:" destination="BKe-xK-1p5" id="ydJ-bK-ZZI"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="6lg-zQ-WUH"/>
                     </navigationItem>
                 </viewController>
