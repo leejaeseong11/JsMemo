@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C43C1312590E9D6008E8EFF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43C1302590E9D6008E8EFF /* DataManager.swift */; };
 		8C499DC32587CC76001E752E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C499DC22587CC76001E752E /* DetailViewController.swift */; };
 		8C582AC5255D9F5E00D5BAAF /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C582AC4255D9F5E00D5BAAF /* MemoListTableViewController.swift */; };
 		8C5D04B62566AECF00C8DECF /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D04B52566AECF00C8DECF /* ComposeViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C43C1302590E9D6008E8EFF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8C499DC22587CC76001E752E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8C582AC4255D9F5E00D5BAAF /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		8C5D04B52566AECF00C8DECF /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C43C12F2590E99E008E8EFF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8C43C1302590E9D6008E8EFF /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8C6F710E255C1CCD007536E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		8CCFDA2625544214008D3414 /* JsMemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C43C12F2590E99E008E8EFF /* Data */,
 				8C6F710E255C1CCD007536E3 /* Model */,
 				8CCFDA2725544214008D3414 /* AppDelegate.swift */,
 				8C499DC22587CC76001E752E /* DetailViewController.swift */,
@@ -168,6 +179,7 @@
 				8CCFDA2A25544214008D3414 /* SceneDelegate.swift in Sources */,
 				8C6F7110255C1CF4007536E3 /* Model.swift in Sources */,
 				8CA1E12A2574093100861D66 /* UIViewController+Alert.swift in Sources */,
+				8C43C1312590E9D6008E8EFF /* DataManager.swift in Sources */,
 				8C499DC32587CC76001E752E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
